@@ -10,7 +10,7 @@ The app is read-only with respect to the phone. Imports are written to temporary
 
 Download the latest app zip from [GitHub Releases](https://github.com/icey4826/android-file-importer/releases/latest).
 
-1. Download `Android File Importer.zip`.
+1. Download `AndroidFileImporter.zip`.
 2. Unzip it.
 3. Move `Android File Importer.app` to your `Applications` folder.
 4. Open the app.

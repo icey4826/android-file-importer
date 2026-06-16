@@ -17,7 +17,7 @@ Initial public release.
 
 ## Install
 
-Download `Android File Importer.zip`, unzip it, and move `Android File Importer.app` to `Applications`.
+Download `AndroidFileImporter.zip`, unzip it, and move `Android File Importer.app` to `Applications`.
 
 The app is ad-hoc signed, not Apple-notarized. If macOS blocks the first launch, right-click the app, choose **Open**, then confirm **Open**.
 

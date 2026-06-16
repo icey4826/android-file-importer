@@ -2,7 +2,7 @@
 
 ## Download the App
 
-Get the latest `Android File Importer.zip` from:
+Get the latest `AndroidFileImporter.zip` from:
 
 https://github.com/icey4826/android-file-importer/releases/latest
 
