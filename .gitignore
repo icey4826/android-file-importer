@@ -1,0 +1,8 @@
+.build/
+.swiftpm/
+Vendor/
+outputs/
+work/
+TASK_STATE.md
+*.part
+.DS_Store
