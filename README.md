@@ -6,6 +6,24 @@ Android File Importer uses ADB instead of macOS's shared MTP camera interface. T
 
 The app is read-only with respect to the phone. Imports are written to temporary `.part` files and moved into place only after a successful transfer.
 
+## Download
+
+Download the latest app zip from [GitHub Releases](https://github.com/icey4826/android-file-importer/releases/latest).
+
+1. Download `Android File Importer.zip`.
+2. Unzip it.
+3. Move `Android File Importer.app` to your `Applications` folder.
+4. Open the app.
+
+The current release is ad-hoc signed, not Apple-notarized. If macOS blocks the first launch, right-click `Android File Importer.app`, choose **Open**, then confirm **Open**.
+
+## First Run
+
+1. On the Android device, enable **Developer options > USB debugging**.
+2. Connect the device by USB.
+3. Unlock the device and approve the USB debugging prompt for this Mac.
+4. Select files or folders in Android File Importer, then choose **Import**.
+
 ## Features
 
 - Browse shared Android storage over USB
@@ -18,15 +36,17 @@ The app is read-only with respect to the phone. Imports are written to temporary
 - Bounded concurrent ADB transfers
 - Continues importing after individual file failures
 
-## Requirements
+## App Requirements
+
+- macOS 26 or newer
+- An Android device with USB debugging enabled
+
+## Build from Source
+
+Requirements:
 
 - macOS 26 or newer
 - Xcode / Swift 6.2 toolchain
-- An Android device with USB debugging enabled
-
-On the Android device, enable **Developer options > USB debugging**, connect the cable, and approve this Mac when Android asks.
-
-## Build
 
 ```sh
 ./scripts/bootstrap.sh
