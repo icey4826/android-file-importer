@@ -44,7 +44,7 @@ To create a double-clickable development app:
 
 ## Direct MTP Experiment
 
-`scripts/bootstrap-mtp.sh` and the unused `CMTPBridge` target are retained as an experimental direct-MTP path. macOS 26 currently prevents that path from claiming tested Android devices while the protected system camera agent is active.
+`scripts/bootstrap-mtp.sh` and `Sources/CMTPBridge` are retained as an experimental direct-MTP path, but the bridge is not part of the default Swift package build. macOS 26 currently prevents that path from claiming tested Android devices while the protected system camera agent is active.
 
 ## Tested Devices
 
