@@ -8,6 +8,8 @@
   <string>AndroidFileImporter</string>
   <key>CFBundleIdentifier</key>
   <string>dev.ivanpetrov.androidfileimporter</string>
+  <key>CFBundleIconFile</key>
+  <string>AppIcon</string>
   <key>CFBundleName</key>
   <string>Android File Importer</string>
   <key>CFBundlePackageType</key>

@@ -1,3 +1,10 @@
+# Android File Importer 0.1.1
+
+## Changes
+
+- Adds a polished macOS app icon.
+- Keeps the same read-only Android USB import functionality as 0.1.0.
+
 # Android File Importer 0.1.0
 
 Initial public release.
